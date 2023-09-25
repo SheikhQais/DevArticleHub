@@ -1,0 +1,149 @@
+/* Giving Background colour to complete body */
+body{
+    background-color: #232830;    
+}
+
+/* Giving Style to .header-nav */
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Giving Changes to headings in Nav */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-right: 20px;
+    color: antiquewhite;
+    /* letter-spacing: 0em;
+    text-align: right;
+    margin-bottom: 10px; */
+    /* background-color: white; */
+}
+
+nav > a{
+    color: antiquewhite;
+    
+}
+/* Giving properties to Head-nav child */
+#dev{
+    /* justify-content: flex-start; */
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Giving style to Header-Logo */
+.header-logo {
+    /* background-color: #909090; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h1{
+    color: #FF2323;
+    /* height: 85px; */
+}
+.header-logo > p{
+    /* height: 44px; */
+    color: #FFFFFF;
+}
+
+.categories{
+    margin-bottom: 10px;
+    color: #909090;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Giving the style to  */
+/* .Articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.Articles{
+    /* border: solid 3px white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap : 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.list{
+    background-color: #FFFFFF;
+    border: 1px solid #252930;
+    border-radius: 22px;
+    max-width: 350px;
+    max-height: 420px;
+
+    /* font-family: "poppins", pop-pins; */
+    /* float: left; */
+}
+.photo{
+    /* border: 1px solid #252930; */
+    width: 350px;
+}
+#pic1{
+    height: max-content;
+}
+hr{
+    border: 2px solid #4D4D4D;
+}
+
+/* Giving style to pages */
+.pages{
+    color: #909090;
+    border: solid 1px white;
+    line-height: 30px;
+    width: 400px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.pages > *a{
+    size: 25px;
+}
+
+#a2{
+    border-top: #FF2323 solid;
+    margin-top: 1px;
+    color: #FF2323;
+}
+
+/* Giving style to footers */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#h3{
+    color: #f3ecec;
+}
+
+.follow{
+    background-color: #4699E0;
+    color: white;
+    height:max-content;
+    width: max-content;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+}
