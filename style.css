@@ -94,7 +94,7 @@ h1{
 }
 .list{
     background-color: #FFFFFF;
-    border: 1px solid #252930;
+    /* border: 1px solid #252930; */
     border-radius: 22px;
     max-width: 350px;
     max-height: 420px;
@@ -107,12 +107,17 @@ h1{
     /* border: 1px solid #252930; */
     width: 350px;
 }
-#pic1{
-    height: max-content;
+/* Making a div of <p> and <h> to give padding */
+.headt{
+    padding-left: 15px;
 }
+/* #pic1{
+    height: max-content;
+} */
 hr{
     border: 2px solid #4D4D4D;
 }
+
 
 /* Giving style to pages */
 .pages{
