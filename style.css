@@ -147,3 +147,17 @@ footer{
     flex-direction: row;
     justify-content:stretch;
 }
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    background-color: #4699E0;
+    height:auto;
+}
+
+#twitter{
+    padding: 0%;
+    height: min-content;
+}
