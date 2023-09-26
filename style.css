@@ -14,6 +14,8 @@ body{
     line-height: 36px;
     margin-right: 20px;
     color: antiquewhite;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
     /* letter-spacing: 0em;
     text-align: right;
     margin-bottom: 10px; */
@@ -46,19 +48,27 @@ nav > a{
 }
 h1{
     color: #FF2323;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif;
     /* height: 85px; */
 }
 .header-logo > p{
     /* height: 44px; */
     color: #FFFFFF;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
 }
-
+/* Giving Style to categories */
 .categories{
     margin-bottom: 10px;
     color: #909090;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif;
 }
 
 /* Giving the style to  */
@@ -88,7 +98,8 @@ h1{
     border-radius: 22px;
     max-width: 350px;
     max-height: 420px;
-
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
     /* font-family: "poppins", pop-pins; */
     /* float: left; */
 }
@@ -106,12 +117,15 @@ hr{
 /* Giving style to pages */
 .pages{
     color: #909090;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     line-height: 30px;
     width: 400px;
     margin-left: 700px;
     display: flex;
     justify-content: space-around;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif;
 }
 .pages > *a{
     size: 25px;
@@ -129,6 +143,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif;
 }
 
 #h3{
