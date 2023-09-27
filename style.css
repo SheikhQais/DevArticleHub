@@ -3,12 +3,12 @@ body{
     background-color: #232830;    
 }
 
-/* Giving Style to .header-nav */
+/* Giving Style to .header-nav Section*/
+
 .header-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* Giving Changes to headings in Nav */
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
@@ -16,19 +16,11 @@ body{
     color: antiquewhite;
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
-    /* letter-spacing: 0em;
-    text-align: right;
-    margin-bottom: 10px; */
-    /* background-color: white; */
 }
 
-nav > a{
-    color: antiquewhite;
-    
-}
 /* Giving properties to Head-nav child */
+
 #dev{
-    /* justify-content: flex-start; */
     margin-left: 15px;
     font-size: 30px;
     font-weight: 400;
@@ -37,29 +29,31 @@ nav > a{
     text-align: left;
 }
 
-/* Giving style to Header-Logo */
+/* Giving style to Header-Logo Section*/
+
 .header-logo {
-    /* background-color: #909090; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
+
 h1{
     color: #FF7575;
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Recursive', sans-serif;
-    /* height: 85px; */
 }
+
 .header-logo > p{
-    /* height: 44px; */
     color: #FFFFFF;
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
 }
-/* Giving Style to categories */
+
+/* Giving Style to Categories Section*/
+
 .categories{
     margin-bottom: 10px;
     color: #909090;
@@ -71,17 +65,9 @@ h1{
     font-family: 'Recursive', sans-serif;
 }
 
-/* Giving the style to  */
-/* .Articles{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-} */
+/* Giving the style to Articles Section */
+
 .Articles{
-    /* border: solid 3px white; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -92,37 +78,34 @@ h1{
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
 .list{
     background-color: #FFFFFF;
-    /* border: 1px solid #252930; */
-    border-radius: 22px;
-    max-width: 350px;
+    border-radius: 24px;
+    max-width: 349px;
     max-height: 420px;
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
-    /* font-family: "poppins", pop-pins; */
-    /* float: left; */
-}
+    }
+    
 .photo{
-    /* border: 1px solid #252930; */
     width: 350px;
 }
+
 /* Making a div of <p> and <h> to give padding */
+
 .headt{
     padding-left: 15px;
 }
-/* #pic1{
-    height: max-content;
-} */
+
 hr{
     border: 2px solid #4D4D4D;
 }
 
+/* Giving style to Pages Section*/
 
-/* Giving style to pages */
 .pages{
     color: #909090;
-    /* border: solid 1px white; */
     line-height: 30px;
     width: 400px;
     margin-left: 700px;
@@ -132,6 +115,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-family: 'Recursive', sans-serif;
 }
+
 .pages > *a{
     size: 25px;
 }
@@ -142,7 +126,7 @@ hr{
     color: #FF2323;
 }
 
-/* Giving style to footers */
+/* Giving style to footers Section*/
 
 footer{
     display: flex;
@@ -157,7 +141,7 @@ footer{
     color: #f3ecec;
 }
 
-.follow{
+#follow{
     background-color: #4699E0;
     color: white;
     height:max-content;
@@ -168,6 +152,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:stretch;
+    align-items: center;
 }
 
 .footer2{
@@ -176,10 +161,5 @@ footer{
     justify-content:space-around;
     align-items:center;
     background-color: #4699E0;
-    height:auto;
-}
-
-#twitter{
-    padding: 0%;
-    height: min-content;
+    height: 25px;;
 }
