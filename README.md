@@ -3,10 +3,10 @@
 <list>
     <ul>Git Hub</ul>
     <ul>DevOps</ul>
-    <ul>Cloud</ul></b>
+    <ul>Cloud</ul>
     <ul>Docker</ul>
     <ul>Python</ul>
-    <ul>JavaScript</ul>
+    <ul>JavaScript</ul></b>
 <h2>Technologies used to develope this website:</h2>
 <h3>
     <list>
