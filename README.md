@@ -8,13 +8,16 @@
     <ul>Python</ul>
     <ul>JavaScript</ul></b>
 <h2>Technologies used to develope this website:</h2>
-
-  <a>  <list>
-        <ul>HTML</ul>
-        <ul>CSS</ul>
-    </list>
-</a>
-<b><p>In designing i used <b>Goolge Fonts</b> as well:</p>
+<b>
+  <h4>
+      <list>
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+        </list>
+    </h4>
+</b>
+<b>
+    <p>In designing i used <b>Goolge Fonts</b> as well:</p>
     <list>
         <ul>Cursive</ul>
         <ul>Poppins</ul>
