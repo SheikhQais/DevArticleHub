@@ -9,12 +9,12 @@
     <ul>JavaScript</ul></b>
 <h2>Technologies used to develope this website:</h2>
 
-    <list>
+  <a>  <list>
         <ul>HTML</ul>
         <ul>CSS</ul>
     </list>
-
-<b></b><p>In designing i used <b>Goolge Fonts</b> as well:</p>
+</a>
+<b><p>In designing i used <b>Goolge Fonts</b> as well:</p>
     <list>
         <ul>Cursive</ul>
         <ul>Poppins</ul>
