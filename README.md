@@ -13,9 +13,10 @@
         <ul>HTML</ul>
         <ul>CSS</ul>
     </list>
-<p>In designing i used <b>Goolge Fonts</b> as well:</p>
+</h3>
+<b></b><p>In designing i used <b>Goolge Fonts</b> as well:</p>
     <list>
         <ul>Cursive</ul>
         <ul>Poppins</ul>
     </list>
-</h3>
+</b>
