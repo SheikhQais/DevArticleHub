@@ -8,12 +8,12 @@
     <ul>Python</ul>
     <ul>JavaScript</ul></b>
 <h2>Technologies used to develope this website:</h2>
-<h3>
+
     <list>
         <ul>HTML</ul>
         <ul>CSS</ul>
     </list>
-</h3>
+
 <b></b><p>In designing i used <b>Goolge Fonts</b> as well:</p>
     <list>
         <ul>Cursive</ul>
