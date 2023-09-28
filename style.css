@@ -1,149 +1,178 @@
+:root{
+    --fontPrimary: "Poppins";
+    --fontSecondary: "Caveat";
+}
 /* Giving Background colour to complete body */
 body{
-    background-color: #232830;    
+    background-color: #232830;   
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: var(--fontSecondary);
+    color: #f3ecec;
 }
 
-/* Giving Style to .header-nav */
+/* Giving Style to .header-nav Section*/
+
 .header-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* Giving Changes to headings in Nav */
+    height: 70px;
+    align-items: center;
+}
+
+.logo-container{
+
+}
+
+.logo{
     font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    margin-right: 20px;
-    color: antiquewhite;
-    /* letter-spacing: 0em;
-    text-align: right;
-    margin-bottom: 10px; */
-    /* background-color: white; */
+    font-family: var(--fontPrimary);
 }
 
-nav > a{
-    color: antiquewhite;
-    
+.nav-items{
+    display: flex;
+    gap: 24px;
 }
-/* Giving properties to Head-nav child */
-#dev{
-    /* justify-content: flex-start; */
-    margin-left: 15px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
+.nav-item{
+    list-style-type: none;
+    font-size: 24px;
+    font-family: var(--fontPrimary);
+    /* margin-left: 12px; */
 }
+/* Giving style to Header-Logo Section*/
 
-/* Giving style to Header-Logo */
-.header-logo {
-    /* background-color: #909090; */
+.hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-}
-h1{
-    color: #FF2323;
-    /* height: 85px; */
-}
-.header-logo > p{
-    /* height: 44px; */
-    color: #FFFFFF;
+    padding: 44px 0;
 }
 
-.categories{
-    margin-bottom: 10px;
+ .hero-container > h1{
+    color: #FF7575;
+    font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.hero-container > p{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+/* Giving Style to Categories Section*/
+
+.categories-container{
     color: #909090;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    padding: 4px 0;
+    height: 40px;
+    align-items: center;
 }
 
-/* Giving the style to  */
-/* .Articles{
+.icons-container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-.Articles{
-    /* border: solid 3px white; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap : 20px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 120px;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
+    gap: 12px;
 }
-.list{
-    background-color: #FFFFFF;
-    border: 1px solid #252930;
-    border-radius: 22px;
-    max-width: 350px;
-    max-height: 420px;
+/* Giving the style to Articles Section */
 
-    /* font-family: "poppins", pop-pins; */
-    /* float: left; */
+.articles-container{
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
 }
+
+.article{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 28%;
+    height: 420px;
+    font-family: 'Poppins', sans-serif;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #232830;
+    }
+    
 .photo{
-    /* border: 1px solid #252930; */
-    width: 350px;
+    width: 100%;
 }
-#pic1{
-    height: max-content;
+
+
+.article-footer{
+    display: flex;
+    justify-content: space-between;     
+
 }
+
 hr{
     border: 2px solid #4D4D4D;
 }
 
-/* Giving style to pages */
+/* Giving style to Pages Section*/
+
 .pages{
     color: #909090;
-    border: solid 1px white;
-    line-height: 30px;
-    width: 400px;
-    margin-left: 700px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-}
-.pages > *a{
-    size: 25px;
+    justify-content: center;
+    gap: 12px;
+    font-style: italic;
+    font-family: 'Recursive', sans-serif;
 }
 
-#a2{
+.pages > a{
+    padding: 12px;
+    box-sizing: border-box;
+}
+#active{
     border-top: #FF2323 solid;
     margin-top: 1px;
     color: #FF2323;
 }
 
-/* Giving style to footers */
+/* Giving style to footers Section*/
 
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-#h3{
-    color: #f3ecec;
-}
-
-.follow{
-    background-color: #4699E0;
-    color: white;
-    height:max-content;
-    width: max-content;
-}
-
-.footer1{
+.footer-left , .footer-right{
     display: flex;
-    flex-direction: row;
-    justify-content:stretch;
+    align-items: center;
+
+}
+.highlight-left-footer{
+    background-color:#4699E0;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.highlight-right-footer{
+    background-color:#4699E0;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 4px 8px;
+
 }
