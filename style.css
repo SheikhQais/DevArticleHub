@@ -1,6 +1,16 @@
+:root{
+    --fontPrimary: "Poppins";
+    --fontSecondary: "Caveat";
+}
 /* Giving Background colour to complete body */
 body{
-    background-color: #232830;    
+    background-color: #232830;   
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: var(--fontSecondary);
+    color: #f3ecec;
 }
 
 /* Giving Style to .header-nav Section*/
@@ -9,93 +19,106 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.logo-container{
+
+}
+
+.logo{
     font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    margin-right: 20px;
-    color: antiquewhite;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fontPrimary);
 }
 
-/* Giving properties to Head-nav child */
-
-#dev{
-    margin-left: 15px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
+.nav-items{
+    display: flex;
+    gap: 24px;
 }
-
+.nav-item{
+    list-style-type: none;
+    font-size: 24px;
+    font-family: var(--fontPrimary);
+    /* margin-left: 12px; */
+}
 /* Giving style to Header-Logo Section*/
 
-.header-logo {
+.hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    padding: 44px 0;
 }
 
-h1{
+ .hero-container > h1{
     color: #FF7575;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 24px;
+    margin-bottom: 0;
 }
 
-.header-logo > p{
+.hero-container > p{
     color: #FFFFFF;
-    font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
 }
 
 /* Giving Style to Categories Section*/
 
-.categories{
-    margin-bottom: 10px;
+.categories-container{
     color: #909090;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
     font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    padding: 4px 0;
+    height: 40px;
+    align-items: center;
 }
 
+.icons-container{
+    display: flex;
+    gap: 12px;
+}
 /* Giving the style to Articles Section */
 
-.Articles{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap : 20px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 120px;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
+.articles-container{
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
 }
 
-.list{
+.article{
     background-color: #FFFFFF;
     border-radius: 24px;
-    max-width: 349px;
-    max-height: 420px;
-    font-family: 'Caveat', cursive;
+    width: 28%;
+    height: 420px;
     font-family: 'Poppins', sans-serif;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #232830;
     }
     
 .photo{
-    width: 350px;
+    width: 100%;
 }
 
-/* Making a div of <p> and <h> to give padding */
 
-.headt{
-    padding-left: 15px;
+.article-footer{
+    display: flex;
+    justify-content: space-between;     
+
 }
 
 hr{
@@ -106,21 +129,19 @@ hr{
 
 .pages{
     color: #909090;
-    line-height: 30px;
-    width: 400px;
-    margin-left: 700px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    gap: 12px;
+    font-style: italic;
     font-family: 'Recursive', sans-serif;
 }
 
-.pages > *a{
-    size: 25px;
+.pages > a{
+    padding: 12px;
+    box-sizing: border-box;
 }
-
-#a2{
+#active{
     border-top: #FF2323 solid;
     margin-top: 1px;
     color: #FF2323;
@@ -131,35 +152,27 @@ hr{
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Caveat', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Recursive', sans-serif;
-}
-
-#h3{
-    color: #f3ecec;
-}
-
-#follow{
-    background-color: #4699E0;
-    color: white;
-    height:max-content;
-    width: max-content;
-}
-
-.footer1{
-    display: flex;
-    flex-direction: row;
-    justify-content:stretch;
+    justify-content: space-between;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-.footer2{
+.footer-left , .footer-right{
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-    background-color: #4699E0;
-    height: 25px;;
+    align-items: center;
+
+}
+.highlight-left-footer{
+    background-color:#4699E0;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.highlight-right-footer{
+    background-color:#4699E0;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 4px 8px;
+
 }
